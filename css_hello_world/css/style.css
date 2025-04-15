@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+::marker{
+    color:rgba(255, 0, 0, 0.959)
+}
+
+p::first-line{
+    line-height: 100%;
+    color: blueviolet;
+}
